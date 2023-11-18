@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs."
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="Images/favicon-64.png" />
+    <link rel="apple-touch-icon" href="Images/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+
+    <title>Gorgeous Naari &mdash; Women - now!</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="logo" src="Images/logo.png" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link" href="#how">How to book an Appointment</a>
+          </li>
+          <li><a class="main-nav-link" href="#meals">Services</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Book Now</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Care and Beauty, you need</h1>
+            <p class="hero-description">
+              Gorgeous Naari is Slimming Centre and Beauty Parlour. Since 2015,
+              we have been actively helping ladies in providing the best weight
+              loss and beauty parlour in Bhopal. Our clients are scattered all
+              across Bhopal as we Offer on-site services as well.
+            </p>
+
+            <p class="hero-description">
+              Our weight loss techniques you get 100% results with no side
+              effects or regaining. Our beauty parlour Offers all hair and Skin
+              treatments as well Bridal and party make-up.
+            </p>
+
+            <p class="hero-description">
+              We also have an in-house boutique and work carefully to stitch the
+              final material as requested. Be it special Gharara stitching,
+              handwork, zari work etc, we have experience in all the latest
+              trends.
+            </p>
+
+            <a href="#cta" class="btn btn--full margin-right-sm"
+              >Start your Healthy life</a
+            >
+
+            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
+            <div class="delivered-meals">
+              <div class="delivered-imgs">
+                <img
+                  src="Images/customers/customer-1.jpg"
+                  alt="Customer photo"
+                />
+                <img
+                  src="Images/customers/customer-2.jpg"
+                  alt="Customer photo"
+                />
+                <img
+                  src="Images/customers/customer-3.jpg"
+                  alt="Customer photo"
+                />
+                <img
+                  src="Images/customers/customer-4.jpg"
+                  alt="Customer photo"
+                />
+                <img
+                  src="Images/customers/customer-5.jpg"
+                  alt="Customer photo"
+                />
+                <img
+                  src="Images/customers/customer-6.jpg"
+                  alt="Customer photo"
+                />
+              </div>
+              <p class="delivered-text">
+                Got opportunity to serve more than
+                <span>1,00,000+</span> customers last year!
+              </p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <picture>
+              <source srcset="Images/first.webp" type="image/webp" />
+              <source srcset="Images/first.png" type="image/png" />
+
+              <img src="Images/first.png" class="hero-img" alt="collage" />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="heading-featured-in">As featured in</h2>
+          <div class="logos">
+            <img
+              src="Images/logos/Dainik_Bhaskar_Logo.png"
+              alt="Dainik Bhaskar logo"
+            />
+            <img
+              src="Images/logos/Hindustan_Times_Logo.png"
+              alt="Hindustan Times logo"
+            />
+            <img
+              src="Images/logos/the-indian-express.png"
+              alt="The Indian Express logo"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how" id="how">
+        <div class="container">
+          <span class="subheading">How to book an Appointment</span>
+          <h2 class="heading-secondary">3 easy steps to use our services</h2>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <!-- STEP 01 -->
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">Choose the Services</h3>
+            <p class="step-description">
+              Don't know anything about the services, we made it easy for you.
+              Just scroll through all the services and reviews.
+            </p>
+          </div>
+
+          <div class="step-img-box">
+            <img
+              src="Images/app/app-screen-1.png"
+              class="step-img"
+              alt="iPhone app
+            preferences selection screen"
+            />
+          </div>
+
+          <!-- STEP 02 -->
+          <div class="step-img-box">
+            <img
+              src="Images/app/app-screen-2.png"
+              class="step-img"
+              alt="iPhone app
+            meal approving plan screen"
+            />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">
+              Pick the plan that works best for you
+            </h3>
+            <p class="step-description">
+              Plenty of plans to choose from and 100% services guaranteed!
+            </p>
+          </div>
+
+          <!-- STEP 03 -->
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">Become one of our family members</h3>
+            <p class="step-description">
+              Join us and let us have a chance to serve you and your family!
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              src="Images/app/app-screen-3.png"
+              class="step-img"
+              alt="iPhone app
+            delivery screen"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-services" id="meals">
+        <div class="container center-text">
+          <span class="subheading">Services</span>
+          <h2 class="heading-secondary">Gorgeous Naari offers 150+ services</h2>
+        </div>
+
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="service">
+            <img
+              src="Images/service/service-1.jpg"
+              class="service-img"
+              alt="Manicure"
+            />
+            <div class="service-content">
+              <div class="service-tags">
+                <span class="tag tag--classical">Classical</span>
+              </div>
+              <p class="service-title">Manicure</p>
+              <ul class="service-attributes">
+                <li class="service-attribute">
+                  <ion-icon
+                    class="service-icon"
+                    name="alarm-outline"
+                  ></ion-icon>
+                  <span><strong>Under</strong> 25 minutes</span>
+                </li>
+                <li class="service-attribute">
+                  <ion-icon
+                    class="service-icon"
+                    name="chatbox-outline"
+                  ></ion-icon>
+                  <span>Good reviews</span>
+                </li>
+                <li class="service-attribute">
+                  <ion-icon class="service-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.9</strong> rating (537)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="service">
+            <img
+              src="Images/service/service-2.jpg"
+              class="service-img"
+              alt="Spa-image"
+            />
+            <div class="service-content">
+              <div class="service-tags">
+                <span class="tag tag--massages">Massages</span>
+                <span class="tag tag--body">Body Treatments</span>
+              </div>
+              <p class="service-title">Spa</p>
+              <ul class="service-attributes">
+                <li class="service-attribute">
+                  <ion-icon
+                    class="service-icon"
+                    name="sparkles-outline"
+                  ></ion-icon>
+                  <span>More than <strong>5</strong> types of spa</span>
+                </li>
+                <li class="service-attribute">
+                  <ion-icon
+                    class="service-icon"
+                    name="volume-mute-outline"
+                  ></ion-icon>
+                  <span>Comfortable environment </span>
+                </li>
+                <li class="service-attribute">
+                  <ion-icon class="service-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong> rating (441)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="diets">
+            <h3 class="heading-tertiary">Heaven for a women:</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Weight Loss</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Fat Loss</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Inch Loss</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Skin Care</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Hair Care</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Body Spa</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>All types of Stitching</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Jwellery</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Manicure-Pedicure</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container all-services">
+          <a href="#" class="link">See all services &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-testimonials" id="testimonials">
+        <div class="testimonials-container">
+          <span class="subheading">Testimonials</span>
+          <h2 class="heading-secondary">Give us a chance to serve you</h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Ritu Patel"
+                src="Images/customers/customer-2.jpg"
+              />
+              <blockquote class="testimonial-text">
+                Gorgeous Narri is amazing! I had gotten an unfortunate haircut
+                from another establishment and she spent the time fixing every
+                detail of my hair until it was perfect. Employees are so skilled
+                and so sweet. Highly recommend!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Ritu Patel</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Dr.Rabiya"
+                src="Images/customers/customer-4.jpg"
+              />
+              <blockquote class="testimonial-text">
+                I have been getting facials here once a month since this salon
+                opened. Gorgeous Naari is wonderful! The whole experience is so
+                relaxing…I have fallen 😴! Love coming here!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Dr.Rabiya</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Dr.Reshma"
+                src="Images/customers/customer-1.jpg"
+              />
+              <blockquote class="testimonial-text">
+                Easy appointments, welcoming staff, and talented employees! I
+                was thrilled with my eyebrow wax, and bang trim. I will be back
+                for more services!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Dr.Reshma</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Nasreen Shami"
+                src="Images/customers/customer-5.jpg"
+              />
+              <blockquote class="testimonial-text">
+                Just had my first appointment here and loved every bit of my
+                experience with Gorgeous Naari. The service was great, the
+                atmosphere was warm and welcoming, the ambience was very pretty
+                and elegant.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Nasreen Shami</p>
+            </figure>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img src="Images/gallery/one.jpg" alt="Cosmetics" />
+            <!-- <figcaption>Caption</figcaption> -->
+          </figure>
+          <figure class="gallery-item">
+            <img src="Images/gallery/two.jpg" alt="Spa" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="Images/gallery/three.jpg" alt="Haircut" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="Images/gallery/four.jpg" alt="Makeup" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="Images/gallery/five.jpg" alt="Women" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="Images/gallery/fourteen.jpg" alt="Bride" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="Images/gallery/thirteen.jpg" alt="Women" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="Images/gallery/eight.jpg" alt="Facial" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="Images/gallery/nine.jpg" alt="Cosmetics" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="Images/gallery/ten.jpg" alt="Cosmetics" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="Images/gallery/eleven.jpg" alt="Eye color" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="Images/gallery/twelve.jpg" alt="Makeup" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-pricing" id="pricing">
+        <div class="container">
+          <span class="subheading">Pricing</span>
+          <h2 class="heading-secondary">
+            Get all the services without breaking the bank
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols margin-bottom-md">
+          <div class="pricing-plan pricing-plan--one-month">
+            <header class="plan-header">
+              <p class="plan-name">One Month</p>
+              <p class="plan-price"><span>₹</span>10000</p>
+              <p class="plan-text">Reduce up to 12kg of weight in one month!</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>1 lipo per day</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Open from 7am to 9pm</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Expert diet plan</span>
+              </li>
+            </ul>
+            <div class="plan-sing-up">
+              <a href="#cta" class="btn btn--full">Get Fit</a>
+            </div>
+          </div>
+
+          <div class="pricing-plan pricing-plan--three-months">
+            <header class="plan-header">
+              <p class="plan-name">Three Months</p>
+              <p class="plan-price"><span>₹</span>25000</p>
+              <p class="plan-text">
+                Reduce up to 22kg weight in less than 3 months!
+              </p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span><strong>2 lipo</strong> per day</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Include <strong>free services</strong></span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Guaranteed no weight gain</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>All one month services included</span>
+              </li>
+            </ul>
+            <div class="plan-sing-up">
+              <a href="#cta" class="btn btn--full">Get Fit</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container grid">
+          <aside class="plan-details">
+            Prices include all applicable taxes. You can cancel at any time.
+            Both plans include the following:
+          </aside>
+        </div>
+
+        <div class="container grid grid--4-cols">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="fitness-outline"></ion-icon>
+            <p class="feature-title">Always be fit!</p>
+            <p class="feature-text">
+              Our subscriptions cover all types of therapies including the
+              12-channel and lipo machines.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="calendar-outline"></ion-icon>
+            <p class="feature-title">Professional employees</p>
+            <p class="feature-text">
+              Our staff members have years of expertise and prestigious degrees.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="aperture-outline"></ion-icon>
+            <p class="feature-title">Bridal Makeup</p>
+            <p class="feature-text">Become a bride in less than 2 hours</p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="hourglass-outline"></ion-icon>
+            <p class="feature-title">15 x 7 hours of services</p>
+            <p class="feature-text">
+              Always welcome from the foggy weather of the mornning to the
+              darkning light of night.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">
+                Get your first booking for free!
+              </h2>
+              <p class="cta-text">
+                Our committed and competent team is here to help keep your hair,
+                nails, skin, and body healthy and beautiful. In addition to our
+                regular beauty services such as pedicures, manicures, and hair
+                services we will continue to perfect our skills and keep
+                educated on all the latest styles. Enjoy our wide range of
+                services in a cozy and luxurious environment. We look forward to
+                serving you!
+              </p>
+
+              <form class="cta-form" name="book-now" netlify>
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Saba khan"
+                    name="full-name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    name="email"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">Choose Plan</label>
+                  <select id="select-where" name="select-where" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="friends">One month plan</option>
+                    <option value="youtube">Three month plan</option>
+                    <option value="podcast">Bridal Makeup</option>
+                    <option value="ad">Party Makeup</option>
+                    <option value="others">Yoga</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="select-where">Where did you hear from us?</label>
+                  <select id="select-where" name="select-where" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="friends">Friends and family</option>
+                    <option value="youtube">Newspaper</option>
+                    <option value="podcast">Pamphlets</option>
+                    <option value="ad">Facebook ad</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form">Book now</button>
+              </form>
+            </div>
+            <div class="cta-img-box" role="img" aria-label="Women"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="Gorgeous Naari logo" src="Images/logo.png" />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2027</span> by Gorgeous Naari,
+            Inc. All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              White House, Fiza Place-2, Near Sufiya Masjid, Koh-E-Fiza, Bhopal,
+              Madhya Pradesh, 462001
+            </p>
+            <p>
+              <a class="footer-link" href="tel:9329378708">+91 9329378708</a
+              ><br />
+              <a class="footer-link" href="mailto:gorgeousnarri@gmail.com"
+                >gorgeousnarri@gmail.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About Gorgeous Naari</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li>
+              <a class="footer-link" href="#">How Gorgeous Naari Started</a>
+            </li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Available Services </a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
